@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="293.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="141.0" layoutY="245.0" onAction="#handleButtonAction" text="Extract !" />
+        
+      <TextField fx:id="keyword" layoutX="20.0" layoutY="73.0" promptText="Example :  .com" />
+      <TextField fx:id="fileText" disable="true" layoutX="20.0" layoutY="116.0" prefHeight="25.0" prefWidth="199.0" promptText="File that contains Email List" />
+      <TextField fx:id="folderText" disable="true" layoutX="20.0" layoutY="147.0" prefHeight="25.0" prefWidth="199.0" promptText="Folder where to create the new file" />
+      <Button fx:id="fileButton" layoutX="225.0" layoutY="116.0" mnemonicParsing="false" text="Select" />
+      <Button fx:id="folderButton" layoutX="225.0" layoutY="147.0" mnemonicParsing="false" text="Select" />
+      <Label fx:id="label" layoutX="197.0" layoutY="77.0" text="Enter Extension filter" />
+      <Button fx:id="cancel1" layoutX="276.0" layoutY="116.0" mnemonicParsing="false" text="Cancel" />
+      <Button fx:id="cancel2" layoutX="276.0" layoutY="147.0" mnemonicParsing="false" text="Cancel" />
+      <TextField fx:id="generated" layoutX="23.0" layoutY="192.0" prefHeight="25.0" prefWidth="199.0" promptText="Generated File Name" />
+      <Label layoutX="197.0" layoutY="30.0" text="Choose Filter Type" />
+      <ComboBox fx:id="comboBox" layoutX="20.0" layoutY="26.0" prefWidth="150.0" />
+      <Button fx:id="info" layoutX="247.0" layoutY="192.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Info" />
+    </children>
+</AnchorPane>

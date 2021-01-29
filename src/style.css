@@ -1,0 +1,32 @@
+Button {  -fx-accent: #FFFF00;
+    -fx-focus-color: #FFFF00;
+    
+  
+}
+TextField {
+    -fx-background-color: #FFFF00;
+      -fx-accent: #FFFF00;
+    -fx-focus-color: #FFFF00;
+    -fx-prompt-text-fill: #000000 ;
+   
+}
+ComboBox{
+      -fx-accent: #FFFF00;
+    -fx-focus-color: #FFFF00;
+}
+
+
+
+AnchorPane{
+    
+    -fx-background-color: black;
+
+}
+
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+
+}
+
